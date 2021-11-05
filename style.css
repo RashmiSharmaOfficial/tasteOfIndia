@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&family=Cookie&family=Lato:wght@300;400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+:root{
+    --bg-color: var(#ffc21c);
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+nav{
+    background-color: rgba(0,0,0,0.88);
+}
+
+
+#navbarSupportedContent ul li{
+    padding-right: 30px;
+}
+
+#navbarSupportedContent ul li a{
+    color: white;
+    font-size: 1.1rem;
+} 
+
+#navbarSupportedContent ul .dropdown-menu{
+    background-color: #0009;
+    margin-top: 16px;
+}
+
+#navbarSupportedContent ul .dropdown-menu .dropdown-item:hover{
+    background-color: #0000; 
+}
+
+#navbarSupportedContent ul li a:hover{
+    color: #ffc21c;
+}
+
+.floating-social{
+    top: 25vh;
+    left: 0px;
+    position: fixed;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 5;
+    box-shadow: 3px 2px 4px 0;
+}
+
+.floating-social a{
+    text-decoration: none;
+    color: black;
+}
+.floating-social a:hover{
+    text-decoration: none;
+    color: #f7b80d;
+}
+
+.floating-avail{
+    top: 65vh;
+    right: 0px;
+    position: fixed;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 5;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.floating-avail button{
+    border-radius: 15px;
+    padding: 3px 3px;
+    margin: 2px;
+    width: 90px;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+    margin-bottom: 2.2rem;
+}
+
+.carousel-caption{
+    top: 20%;
+}
+
+.scrollBtn img{
+    max-width: unset;
+    max-height: 29px;
+    margin-top: -46px;
+    z-index: 1;
+    position: relative;
+}
+
+#about{
+    margin-top: 60px;
+    prefix: 3;
+    /* border: 1px solid saddlebrown; */
+    font-size: 1.1rem;
+}
+
+#about .leftSideBar{
+    margin-top: 3.2rem;
+}
+
+#about .leftSideBar h2{
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffc21c;
+    font-size: 3.8rem;
+    text-transform: capitalize;
+}
+
+#about .rightSideBar{
+    margin-top: 4rem;
+}
+
+#about .rightSideBar p{
+    text-align: left;
+    padding-left: 30px;
+}
+
+#about .rightSideBar .midHeader{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+#brand{
+    margin-top: 60px;
+    prefix: 3;
+    /* border: 1px solid saddlebrown; */
+    font-size: 1.7rem;
+    text-transform: capitalize;
+
+}
+
+#brand h2{
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    color: #ffc21c;
+    font-size: 3.8rem;
+    text-transform: capitalize;
+}  
+
+.bg1{
+    background-color: #f7b80d;
+}
+
+.bg2{
+    background-color: #7e8133;
+}
+
+.highlight{
+    margin-top: 60px;
+    prefix: 3;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(56 108 101)
+}
+
+.highlight p{
+    margin-top: 20px;
+}
+
+.highlight h2{
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    color: #ffc21c;
+    font-size: 3.8rem;
+    text-transform: capitalize;
+}
+
+.highlightItems{
+    margin-top: 30px;
+}
+
+.highlightItem{
+    margin: 50px;
+    text-align:center;
+}
+
+.midHeader{
+    font-weight: 900;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+#media{
+    font-size: 0.9rem;
+}
+
+#media .mediaImage{
+    height: 600px;
+    background-image: url("https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+
+#media .mediaText{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#media .mediaText h1{
+    padding: 1.1rem;
+}
+
+#media span{
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    color: #ffc21c;
+    font-size: 2.9rem;
+    text-transform: capitalize;
+}
+
+#highlight .midStyle{
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    color: #ffc21c;
+    font-size: 4.6rem;
+    text-transform: capitalize;
+}
+
+#mapDelhi{
+    margin-top: 60px;
+}
+
+#featured{
+    margin-top: 60px;
+}
+
+#featured h2{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    color: #ffc21c;
+    font-size: 4.6rem;
+    text-transform: capitalize;
+}
+
+#featured img{
+    padding: 10px 20px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #f7b80d;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer i{
+    color: black;
+    padding: 10px;
+}
+
+.fab{
+    font-size: 27px;
+}
+
